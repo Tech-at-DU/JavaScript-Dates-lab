@@ -168,25 +168,26 @@ console.log('--------- Problem 2 --------')
 function orderDates(dates) {
   // orders the dates 
   // returns a new array of ordered dates
-  // (clue, remmeber that dates can be treated like numbers!)
+  // (Clue: remmeber that dates can be treated like numbers!)
 }
 
 orderDates([today, dueDate, startDate, bday, newYear])
 
 // [bday, startdate, duedate, newyear]
 
-// Stretch: Return an object containing three keys each holding an array of dates. The keys are: 
+// Stretch: Return an object containing three keys each holding an 
+// array of dates. The keys are: 
 
 // - past: array of dates that happened before today
 // - present: all dates that happen today
-// - furture: all of the dates that will occur in the future
+// - future: all of the dates that will occur in the future
 
 // { past: [...], present:[...], future:[...] }
 
 console.log('--------- Problem 3 --------')
 
 // Given an array of dates find the date that will happen next. 
-// You need to find the date that is closetest to today
+// You need to find the date that is closetest to now
 // but not before!
 
 function nextDate(dates) {
